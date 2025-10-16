@@ -4,7 +4,6 @@ import { Image, StyleSheet, View, Text } from 'react-native';
 export default function App() {
   return (
     <View style={styles.mainContainer}>
-      {/* Ligne avec logo + texte */}
       <View style={styles.headerRow}>
         <Image
           source={require('./assets/emsi_logo.jpg')}
@@ -17,7 +16,7 @@ export default function App() {
         </View>
       </View>
 
-      {/* Infos étudiant */}
+     
       <View style={styles.info}>
         <Text style={styles.label}>
           Nom : <Text style={styles.value}>TENSAOUI</Text>
